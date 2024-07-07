@@ -4,4 +4,6 @@ export const getCurrentRestaurantIndexStorage = (key) => {
 
 export const setCurrentRestaurantIndexStorage = (key, value) => {
     localStorage.setItem (key, value.toString());
+
+    
 };
