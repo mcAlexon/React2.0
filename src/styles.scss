@@ -1,0 +1,17 @@
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: URW Chancery L, cursive;
+    background:  #F2D9C9;
+}
+.defaultTheme {
+    --background-color: white;
+    --text-color: black;
+  }
+  
+  .darkTheme {
+    --background-color: black;
+    --text-color: white;
+  }
