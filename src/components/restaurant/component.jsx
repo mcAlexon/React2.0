@@ -1,5 +1,8 @@
 import { Menu } from "../menu/component";
 import { Reviews } from "../reviews/components";
+import classNames from "classnames";
+import styles from "./styles.module.scss"
+
 export const Restaurant = ({restaurant}) => {
     if(!restaurant){
         return null;
@@ -13,8 +16,8 @@ export const Restaurant = ({restaurant}) => {
                 <Menu menu={menu}/>
             </div>)}
             {!!reviews?.length &&(
-                <div>
-                <h3>Reviews</h3>
+                <div className={classNames(styles.root)}>
+                <h3 className={classNames(styles.h3Reviews)}>Reviews</h3>
                 <Reviews reviews={reviews}/>
             </div>)}
         </div>
