@@ -1,0 +1,12 @@
+.root{
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(142, 140, 245);
+    border: 0;
+    gap: 5px;
+}
+.root:disabled{
+    background-color: rgb(164, 224, 224);
+    color: black;
+}

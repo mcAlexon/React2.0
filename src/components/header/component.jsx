@@ -1,3 +1,9 @@
+import classNames from "classnames";
+import styles from "./styles.module.scss";
+
+
 export const Header =()=>{
-    return <header>header</header>;
+    return <header className={classNames(styles.root)}>
+                <div>Restaurants</div>
+            </header>;
 };
